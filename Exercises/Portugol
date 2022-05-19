@@ -1,0 +1,102 @@
+Meu 17/05/2022
+Qual número é o maior?
+Inicio
+1. Ler(A,B)
+2. Se (A>B) Então
+3. Exibir (A)
+4. Senaose (A<B)
+5. Exibir(B)
+6.Entao
+7.Exibir("Os numeros são iguais")
+8. Fim Se
+FIM
+
+Professor
+Inicio
+1.Ler(A,B)
+2.Se(A=B) Então
+3.Exibir('Os números são iguais')
+4.SenãoSe(A>B)Então
+5.Exibir(A)
+6.Senão
+7.Exibir(B)
+8.Fim Se
+Fim
+*************************************************************
+Media de notas de um aluno
+Meu
+Carlos=0
+Ler (media)
+Ler (Nota1 ) 
+Ler (Nota2 ) 
+Ler (Nota3)  
+Ler (Nota4)  
+
+soma(Nota1+Nota2+Nota3+Nota4)/4
+Adiciona a media à Carlos
+Se Carlos > Media
+Exibir ('Reprovado') 
+Senão se Carlos=<Media
+Exibir('Aprovado')
+Fim se
+
+
+Professor 
+Inicio 
+1.Ler(A,B,C)
+2.Media=(A*2) + B + (C*2)/5
+3.Se media>= 6 Então
+4.Exibir("Aluno aprovado!")
+5.Senão
+Exibir("Aluno reprovado!")
+FIM
+
+Fatorial
+
+Professor
+
+Inicio
+
+1.Ler(A)
+2.Cont=1
+3.Fatorial= A 
+4.Enquanto(Cont<A) Faça
+5.  Fatorial=Fatorial*(A-Cont)
+6.  Cont = Cont + 1
+7.Fim quanto
+8.Exibir(Fatorial)
+Fim
+
+Par ou Ímpar
+
+Meu
+
+1.Ler (A,B)
+2.Dividir A/B = Resto
+3.Se Resto = 1 
+4. Exibir('Seu número é ímpar!')
+5.Senão 
+6. Exibir('Seu número é par')
+
+Professor
+
+Inicio
+
+1.Ler(A)
+2.Se(A%2=0)Então
+3. Exibir(A, "É PAR")
+4.Senão
+5.Exibir(A,"É IMPAR")
+
+Contar os caracteres 
+
+Professor
+
+Inicio
+
+1.Ler(A)
+2.caracteres=0
+3.Para cada caracter de A, Faça
+4. caracteres = caracteres + 1
+5.Fim Para
+6.Exibir(caracteres)

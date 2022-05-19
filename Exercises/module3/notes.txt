@@ -1,0 +1,26 @@
+JavaScript/DOM
+
+Var variável = 
+window.document.getElementbyId("ID") - Atribui o calor da consulta a uma variável.
+
+Var variável = 
+window.document.getElemebyClassname("class") - Atribui qualquer elemente utilizando a classe como parâmentro.
+
+Var variável = 
+window.document.getElemebytagName("tag") - Atribui qualquer elemento dentro da tag mencionada.
+
+variável.addEventListener("click", function() {
+    Var titulo = window.document.getElementById("tituloPagina") - Monitora um atributo e realiza eventos automatizados.
+    titulo.innerText = "Meu novo titulo"
+})
+
+variável.children - saber quem são os elementos filho de um ID.
+
+***********
+Como as tags semânticas facilitam a compreensão?
+Por meio de tags cujo nome são determinadas ao conteúdo da página como:
+
+1- <header>
+2- <section>
+3- <article>
+4- <nav>
