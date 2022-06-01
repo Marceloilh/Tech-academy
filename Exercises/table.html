@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+
+    <style>
+       table {
+        border: 2px solid green;
+        margin-left:auto; 
+        margin-right:auto;
+        width: 800px;
+        border-collapse:collapse;
+     
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       } 
+       th, tr ,td {
+         border: 2px solid black;
+         text-align:center;
+       }
+       th{
+         background:gray;
+         text-align: left;  
+        }
+        #end{
+            text-align:center;
+        }
+  
+ 
+        caption{
+            caption-side: top;
+            font-size:10pt;
+        }
+        #tf {
+            font-size: 10pt;
+            background:gainsboro;
+        }
+        tbody tr:nth-child(even){
+            background:rgb(150, 150, 219);  
+        }
+      
+         tbody tr:nth-child(odd){
+        background:rgb(78, 78, 165);  
+        }
+        tbody tr:hover {
+
+            background-color: greenyellow;    
+      
+    
+    </style>
+</head>
+
+
+
+<body>
+    <table >
+        <caption>Tabela 1 Testes com Tags novas e CSS3</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Nome</th>
+                <th rowspan="2">Telefone</th>
+                <th id="end" colspan="5">Endereço</th>
+                
+            </tr>
+            <tr>
+                <th>Rua</th>
+                <th>Número</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+                <th>Cep</th>
+            </tr>
+        </thead>
+        <tbody id="tb">
+            <tr>
+                <td>Marcos Silva</td>
+                <td>55789899999</td>
+                <td>Catarina Gossen</td>
+                <td>299</td>
+                <td>Cartagena</td>
+                <td>Uruguai</td>
+                <td>2675458</td>
+            </tr>
+            <tr>
+                <td>Marcos Silva</td>
+                <td>55789899999</td>
+                <td>Catarina Gossen</td>
+                <td>299</td>
+                <td>Cartagena</td>
+                <td>Uruguai</td>
+                <td>2675458</td>
+            </tr>
+            <tr>
+                <td>Marcos Silva</td>
+                <td>55789899999</td>
+                <td>Catarina Gossen</td>
+                <td>299</td>
+                <td>Cartagena</td>
+                <td>Uruguai</td>
+                <td>2675458</td>
+            </tr>
+            <tr>
+                <td>Marcos Silva</td>
+                <td>55789899999</td>
+                <td>Catarina Gossen</td>
+                <td>299</td>
+                <td>Cartagena</td>
+                <td>Uruguai</td>
+                <td>2675458</td>
+            </tr>
+            <tr>
+                <td>Marcos Silva</td>
+                <td>55789899999</td>
+                <td>Catarina Gossen</td>
+                <td>299</td>
+                <td>Cartagena</td>
+                <td>Uruguai</td>
+                <td>2675458</td>
+            </tr>
+            <tr>
+                <td>Marcos Silva</td>
+                <td>55789899999</td>
+                <td>Catarina Gossen</td>
+                <td>299</td>
+                <td>Cartagena</td>
+                <td>Uruguai</td>
+                <td>2675458</td>
+            </tr>
+            <tr>
+                <td>Marcos Silva</td>
+                <td>55789899999</td>
+                <td>Catarina Gossen</td>
+                <td>299</td>
+                <td>Cartagena</td>
+                <td>Uruguai</td>
+                <td>2675458</td>
+            </tr>
+            <tr>
+                <td>Marcos Silva</td>
+                <td>55789899999</td>
+                <td>Catarina Gossen</td>
+                <td>299</td>
+                <td>Cartagena</td>
+                <td>Uruguai</td>
+                <td>2675458</td>
+            </tr>
+            
+        </tbody>
+                 
+        <tfoot id="tf">
+            <tr>
+                <td colspan="7>">Para maiores informaçoes,entre em contato conosco.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+
+
+
+
+
+</body>
+</html>

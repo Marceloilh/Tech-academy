@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background: linear-gradient(to right, red , yellow 100%);
+}
+
+h1 {
+    font-size: 155px;
+    color: #FFFFFF;
+}
+
